@@ -10,21 +10,7 @@ CC0にしています。変更されることはありません<br>
 別サイトからreadmeをGitHubに移す時にけっこう便利です<br>
 <br>
 〔ダウンロードはこちら〕<br>
-<br>
-<br>
-<br>
-　　旦旦旦旦旦旦旦旦旦旦旦／⌒ヽ旦旦旦旦旦旦旦旦旦<br>
-　 ⊂二二二二二<a href="https://github.com/FURSTENT/Tool_for_inserting_br_tags/releases/latest">
+⊂二二二二二二（　＾ω＾）二二二二<a href="https://github.com/FURSTENT/Tool_for_inserting_br_tags/releases/latest">
   <img src="https://img.shields.io/github/v/release/FURSTENT/AirClock?label=Download&color=blue" alt="Latest Release">
-</a>二二二二二（　＾ω＾）二二二二<a href="https://github.com/FURSTENT/Tool_for_inserting_br_tags/releases/latest">
-  <img src="https://img.shields.io/github/v/release/FURSTENT/AirClock?label=Download&color=blue" alt="Latest Release">
-</a>二二二二⊃　<br>
-　　　　　　　　　　　　 |　　　 /<br>
-　　　　　　　　　　　　 （　ヽノ<br>
-　　　　　　　　　　　　　 ﾉ>ノ<br>
-　　　　　　　　　 三　　レﾚ<br>
+</a>二二⊃ 
 
-
-<a href="https://github.com/FURSTENT/Tool_for_inserting_br_tags/releases/latest">
-  <img src="https://img.shields.io/github/v/release/FURSTENT/AirClock?label=Download&color=blue" alt="Latest Release">
-</a>
