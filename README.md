@@ -1,1 +1,10 @@
-# A-tool-that-peppers-line-breaks-with--br--tags.
+# readme<br>
+<br>
+【やってくれること】<br>
+・文章を入力し、その文章に改行が検出されるとbrをつけてくれます<br>
+<br>
+【ライセンス】<br>
+CC0にしています。変更されることはありません<br>
+<br>
+【使用例】<br>
+別サイトからreadmeをGitHubに移す時にけっこう便利です<br>
