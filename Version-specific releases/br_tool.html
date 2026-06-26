@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>改行→br変換ツール</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+        .btn-group {
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
+    <h2>テキスト改行変換ツール</h2>
+    <p>ここにテキストをペーストしてね：</p>
+    <textarea id="inputText" placeholder="テキストを貼り付けてください..."></textarea>
+
+    <div class="btn-group">
+        <button onclick="convertText()">変換する</button>
+    </div>
+
+    <p>結果（ここに &lt;br&gt; 付きのテキストが出るよ）：</p>
+    <textarea id="outputText" readonly placeholder="変換結果がここに表示されます..."></textarea>
+
+    <script>
+        function convertText() {
+            // 入力されたテキストを取得
+            const input = document.getElementById('inputText').value;
+            
+            // 改行コード（Windowsの\r\n、Mac/Linuxの\n）を <br>\n に置換
+            // ※元の改行を残しつつ後ろに <br> を付ける仕様
+            const output = input.replace(/\r?\n/g, '<br>\n');
+            
+            // 結果を出力用エリアにセット
+            document.getElementById('outputText').value = output;
+        }
+    </script>
+
+</body>
+</html>
